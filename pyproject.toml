@@ -5,7 +5,10 @@ description = "This project aims to build a MLOps pipeline"
 authors = ["Pedro-A-D-S <pedroalves0409@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "src"}]
+packages = [
+    {include = "src"},
+    {include = "tests"}
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"

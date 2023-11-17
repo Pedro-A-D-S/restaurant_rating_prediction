@@ -1,5 +1,2 @@
-notebooks/Zomato_df.csv
-notebooks/zomato_cleaned.parquet
-notebooks/zomato-1.svg
-notebooks/zomato.csv
-flask_app/Zomato_df.csv
+data/*
+model/*
